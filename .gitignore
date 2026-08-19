@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Node / VS Code extension
+node_modules/
+extension/out/
+*.vsix
+
+# Editors / OS
+.DS_Store
+.vscode-test/
