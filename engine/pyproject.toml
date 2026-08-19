@@ -1,0 +1,11 @@
+[project]
+name = "tempname-engine"
+version = "0.1.0"
+description = "Local project-intelligence engine for a developer-first coding assistant"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
