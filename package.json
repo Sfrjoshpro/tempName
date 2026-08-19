@@ -1,0 +1,21 @@
+{
+  "name": "tempname-vscode",
+  "displayName": "tempName",
+  "description": "Developer-first project intelligence for VS Code",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": ["Programming Languages", "Other"],
+  "activationEvents": ["onCommand:tempname.inspectSymbol"],
+  "main": "./extension/out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "tempname.inspectSymbol",
+        "title": "tempName: Inspect Symbol"
+      }
+    ]
+  }
+}
