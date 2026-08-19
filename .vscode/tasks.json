@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile tempName Extension",
+      "type": "shell",
+      "windows": {
+        "command": "npm.cmd run compile"
+      },
+      "linux": {
+        "command": "npm run compile"
+      },
+      "osx": {
+        "command": "npm run compile"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/extension"
+      },
+      "problemMatcher": "$tsc",
+      "group": "build"
+    }
+  ]
+}
